@@ -44,7 +44,7 @@ class ws_msgo:
         self.min = delay.minute
 
     
-    def whatsapp_send(self):
+    def whatsapp_sender(self):
         '''
         Enviara el mensaje almacenado en self.message, al minuto siguiente del envio a traves de una api de whatsapp.
         '''

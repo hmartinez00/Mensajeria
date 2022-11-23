@@ -22,4 +22,4 @@ bot = ws_msgo(
     message,
 )
 
-bot.whatsapp_send()
+bot.whatsapp_sender()
