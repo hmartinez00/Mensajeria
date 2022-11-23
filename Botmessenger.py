@@ -1,8 +1,8 @@
 import config as cfg
 from msgo import msgo
 
-chat_id = cfg.CHAT_ID
-token = cfg.TOKEN
+chat_id = cfg.TELEGRAM_CHAT_ID
+token = cfg.TELEGRAM_TOKEN
 message = 'Hola!'
 
 bot = msgo(
@@ -11,5 +11,4 @@ bot = msgo(
     message,
 )
 
-# print(message, end='\r')
-bot.envio()
+bot.telegram_send()
