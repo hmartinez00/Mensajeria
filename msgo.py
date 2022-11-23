@@ -1,5 +1,5 @@
 import requests
-import config as cfg
+import msg_config as cfg
 
 class msgo:
 

@@ -1,4 +1,4 @@
-import config as cfg
+import msg_config as cfg
 from msgo import msgo
 
 chat_id = cfg.TELEGRAM_CHAT_ID
