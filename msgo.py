@@ -3,7 +3,6 @@ import config as cfg
 
 class msgo:
 
-
     def __init__(
             self,
             __chat_id__,
