@@ -6,7 +6,8 @@ from msgo import tg_msgo, ws_msgo
 
 message = 'Hola soy Hector y estoy probando la libreria de python pywhatkit para mensajeria'
 
-telefono = '+584265200611'
+# telefono = '+584265200611'
+telefono = '+584124275798'
 
 # bot = tg_msgo(
 #     chat_id,
