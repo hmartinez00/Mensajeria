@@ -1,10 +1,15 @@
 import config as cfg
-from msgo import envio
-import requests
+from msgo import msgo
 
 chat_id = cfg.CHAT_ID
 token = cfg.TOKEN
-
 message = 'Hola!'
-print(message, end='\r')
-envio(chat_id, token, message)
+
+bot = msgo(
+    chat_id,
+    token,
+    message,
+)
+
+# print(message, end='\r')
+bot.envio()
